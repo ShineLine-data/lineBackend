@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'odcdb',
         'USER': 'odc',
         'PASSWORD': 'odc123',
-        'HOST': 'localhost',
+        'HOST': 'db', #'localhost', pour un lancement en local localhost marche mais pas avec le conteneur
         'PORT': '5432',
     }
 }
